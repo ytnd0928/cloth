@@ -8,3 +8,5 @@ services:
       - 4306:3306
     environment:
       - MYSQL_ROOT_PASSWORD=root
+      
+    host: 127.0.0.1
